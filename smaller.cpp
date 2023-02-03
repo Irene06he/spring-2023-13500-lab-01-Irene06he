@@ -1,3 +1,6 @@
+// Name : Irene He He
+//GitHub Name : Irene06he
+
 #include<iostream>
 
 int main(){
@@ -7,10 +10,10 @@ int main(){
   std::cout<<"Enter the second number:";
   std::cin>>secondNum;
   if (firstNum<secondNum){
-    std::cout<<"The smaller of the two is"<<firstNum<<"\n\n";
+    std::cout<<"\n\n"<<"The smaller of the two is:"<<firstNum;
   }
   else if(secondNum<firstNum){
-    std::cout<<"The smaller of the two is :"<<secondNum<<"\n\n";
+    std::cout<<"\n\n"<<"The smaller of the two is :"<<secondNum;
   }
   return 0;
   }
