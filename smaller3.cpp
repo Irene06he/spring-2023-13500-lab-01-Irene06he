@@ -12,13 +12,13 @@
   	std::cout<<"Enter the third number:";
   	std::cin>>z;
   	if (x<=y && x<=z ){
-    	std::cout<<"The smaller of the three is:"<<x<<"\n\n";
+    	std::cout<<"\n\n"<<"The smaller of the three is:"<<x<<"\n\n";
   	}
   	else if (y<=x && y<=z){
-    	std::cout<<"The smaller of the three is:"<<y<<"\n\n";
+    	std::cout<<"\n\n"<<"The smaller of the three is:"<<y<<"\n\n";
   	}
   	else {
-    	std::cout<<"The smaller of the three is:"<<z<<"\n\n";
+    	std::cout<<"\n\n"<<"The smaller of the three is:"<<z<<"\n\n";
  	 }
 	
 	return 0;
